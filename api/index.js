@@ -18,7 +18,7 @@ class API extends Request {
         this.options = opts || {};
         this.options.version = this.options.version ? this.options.version : 1;
 
-        this.url = `https://api.dapulse.com:443/v${this.options.version}`;
+        this.url = `https://api.monday.com:443/v${this.options.version}`;
         this.defaults = {
             api_key: this.options.apiKey,
             format: 'json'

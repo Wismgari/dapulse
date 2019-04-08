@@ -32,8 +32,8 @@ class Updates {
     }
 
     /**
-     * https://developers.dapulse.com/#!/updates/GET_version_updates_format
-     * https://developers.dapulse.com/#!/updates/POST_version_updates_format
+     * https://developers.monday.com/#!/updates/GET_version_updates_format
+     * https://developers.monday.com/#!/updates/POST_version_updates_format
      * @return {Promise}
      */
     updates(opts) {
@@ -51,7 +51,7 @@ class Updates {
     }
 
     /**
-     * https://developers.dapulse.com/#!/updates/GET_version_updates_id_format
+     * https://developers.monday.com/#!/updates/GET_version_updates_id_format
      * @return {Promise}
      */
     updates_id(opts) {
@@ -69,7 +69,7 @@ class Updates {
     }
 
     /**
-     * https://developers.dapulse.com/#!/updates/POST_version_updates_id_like_format
+     * https://developers.monday.com/#!/updates/POST_version_updates_id_like_format
      * @return {Promise}
      */
     updates_id_like(opts) {
@@ -80,7 +80,7 @@ class Updates {
     }
 
     /**
-     * https://developers.dapulse.com/#!/updates/POST_version_updates_id_unlike_format
+     * https://developers.monday.com/#!/updates/POST_version_updates_id_unlike_format
      * @return {Promise}
      */
     updates_id_unlike(opts) {

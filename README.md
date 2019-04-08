@@ -1,15 +1,17 @@
 
-dapulse
-=======
+Monday.com
+==========
 
 [![Build Status](https://travis-ci.org/leemm/dapulse.svg?branch=master)](https://travis-ci.org/leemm/dapulse)
 
-Wrapper for Dapulse API v1 with ES6 style classes and promises.
+Wrapper for Monday.com API (previously known as Dapulse) v1 with ES6 style classes and promises.
+
+This fork replaces references to dapulse.com with monday.com in comments and changes the hardcoded API URL to avoid the disabling of the old API URL on June 1st 2019.
 
 # Prerequisites
 
 You need your API key:
-* https://developers.dapulse.com/
+* https://developers.monday.com/
 * If using the examples in this module add it to examples/apikey.json
 
 # Install
@@ -19,7 +21,7 @@ npm install dapulse --save
 
 # Usage
 
-All API URL paths listed in the developer documentation https://developers.dapulse.com/ are mapped to the API class. e.g. **api.users()** for the API path */users*. If the URL path contains a parameter e.g. *{pulse_id}* this is mapped to the word without the brackets.
+All API URL paths listed in the developer documentation https://developers.monday.com/ are mapped to the API class. e.g. **api.users()** for the API path */users*. If the URL path contains a parameter e.g. *{pulse_id}* this is mapped to the word without the brackets.
 For example, */v1/pulses/{id}.json* becomes *api.pulses.id()*;
 
 ***See the developer documentation for all usable parameters for each method***
@@ -55,7 +57,7 @@ const API = require('dapulse'),
 
 
 // Get 4 users from the first page
-// https://developers.dapulse.com/#!/users/GET_version_users_format
+// https://developers.monday.com/#!/users/GET_version_users_format
 api.users({
 	page: 1,
 	per_page: 4,
@@ -75,7 +77,7 @@ const API = require('dapulse'),
 
 
 // Create new board called 'Test API Board'
-// https://developers.dapulse.com/#!/boards/POST_version_boards_format
+// https://developers.monday.com/#!/boards/POST_version_boards_format
 api.boards({
 	action: 'post',
 	user_id: 152586,
@@ -96,7 +98,7 @@ const API = require('dapulse'),
 
 
 // Delete a note from the pulse 158556
-// https://developers.dapulse.com/#!/pulses/DELETE_version_pulses_id_notes_note_id_format
+// https://developers.monday.com/#!/pulses/DELETE_version_pulses_id_notes_note_id_format
 api.pulses.id.notes.note_id({
 	action: 'delete',
 	id: 158556,

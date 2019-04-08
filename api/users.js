@@ -33,7 +33,7 @@ class Users {
     }
 
     /**
-     * https://developers.dapulse.com/#!/users/GET_version_users_format
+     * https://developers.monday.com/#!/users/GET_version_users_format
      * @return {Promise}
      */
     users(opts) {
@@ -44,7 +44,7 @@ class Users {
     }
 
     /**
-     * https://developers.dapulse.com/#!/users/GET_version_users_id_format
+     * https://developers.monday.com/#!/users/GET_version_users_id_format
      * @return {Promise}
      */
     users_id(opts) {
@@ -55,7 +55,7 @@ class Users {
     }
 
     /**
-     * https://developers.dapulse.com/#!/users/GET_version_users_id_posts_format
+     * https://developers.monday.com/#!/users/GET_version_users_id_posts_format
      * @return {Promise}
      */
     users_id_posts(opts) {
@@ -66,7 +66,7 @@ class Users {
     }
 
     /**
-     * https://developers.dapulse.com/#!/users/GET_version_users_id_newsfeed_format
+     * https://developers.monday.com/#!/users/GET_version_users_id_newsfeed_format
      * @return {Promise}
      */
     users_id_newsfeed(opts) {
@@ -77,7 +77,7 @@ class Users {
     }
 
     /**
-     * https://developers.dapulse.com/#!/users/GET_version_users_id_unread_feed_format
+     * https://developers.monday.com/#!/users/GET_version_users_id_unread_feed_format
      * @return {Promise}
      */
     users_id_unread_feed(opts) {
