@@ -1,13 +1,14 @@
 {
   "name": "dapulse",
-  "version": "0.1.1",
-  "description": "Dapulse API wrapper with Promises and ES6 style classes",
+  "version": "0.2.0",
+  "description": "Monday.com API wrapper with Promises and ES6 style classes",
   "main": "index.js",
   "directories": {
     "example": "examples"
   },
   "keywords": [
-    "dapulse",
+	"dapulse",
+	"monday.com",
     "api",
     "request",
     "http"
